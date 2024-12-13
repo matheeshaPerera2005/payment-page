@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Cinema Payment Page</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">Dream <span>Scope</span></div>
+            <div class="login">LOGIN IN</div>
+        </header>
+
+        
+        <div class="main-content">
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <input type="email" placeholder="example@gmail.com">
+                <input type="tel" placeholder="+94 123456789">
+            </div>
+
+           
+            <div class="payment-options">
+                <h3>Payment Options</h3>
+                <div class="tabs">
+                    <button class="tab active">Quick Pay</button>
+                    <button class="tab">Credit/Debit Card</button>
+                    <button class="tab">Credit Voucher</button>
+                    <button class="tab">PayPal</button> 
+                </div>
+                <div class="card-details">
+                    <input type="text" placeholder="Enter your Card Number">
+                    <input type="text" placeholder="Name on the card">
+                    <div class="card-expiry-cvv">
+                        <input type="text" placeholder="MM/YY">
+                        <input type="text" placeholder="CVV">
+                        <div>
+                        </div>
+                        <div class="paypal-details" style="display: none;">
+                          <p>Pay securely using PayPal.</p>
+                          <button class="paypal-button">Proceed to PayPal</button>
+                      </div>
+                      <button class="make-payment">Make Payment</button>
+                    </div>
+                    
+                </div>
+                <p class="terms">
+                    By clicking "Make Payment" you agree to the terms and conditions
+                </p>
+            </div>
+
+            
+
+
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <p><strong>It Ends With Us (U/A)</strong></p>
+                <p>English 2D</p>
+                <p>ABC CINEMA, Colombo</p>
+                <p>Mon, 25 Nov, 2024<br>07:30 PM</p>
+                <p>2 Tickets</p>
+                <hr>
+                <div class="pricing">
+                    <p>Sub Total: <span>Rs. 2100/-</span></p>
+                    <p>+ Internet Handling Fees: <span>Rs. 130/-</span></p>
+                    <hr>
+                    <p><strong>Amount Payable: <span>Rs. 2230/-</span></strong></p>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <footer>
+            <p>As safe as it gets</p>
+            <div class="payment-logos">
+                <img src="https://cdn.icon-icons.com/icons2/2163/PNG/512/visa_icon_133070.png" alt="Visa">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt="MasterCard">
+                <img src="https://st4.depositphotos.com/5225467/22068/v/950/depositphotos_220680152-stock-illustration-paypal-logo-printed-white-paper.jpg" alt="paypal">
+                <img src="https://t3.ftcdn.net/jpg/07/88/25/58/360_F_788255885_I1LhvcVPmsgJcICZdUVJYYqqCVvbmyhF.jpg" alt="SecureCode">
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
